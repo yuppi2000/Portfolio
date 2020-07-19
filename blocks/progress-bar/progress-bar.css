@@ -1,0 +1,38 @@
+@import url(./_ux-research/progress-bar_ux-research.css);
+@import url(./_ui-design/progress-bar_ui-design.css);
+@import url(./_frontend-dev/progress-bar_frontend-dev.css);
+
+.progress-bar {
+  background-color: #F5D6AB;
+  height: 24px;
+  width: 446px;
+  margin: 0;
+  position: relative;
+}
+
+
+@media screen and (max-width: 1252px) {
+  .progress-bar {
+    height: 25px;
+    width: 346px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .progress-bar {
+    width: 211px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .progress-bar {
+    height: 18px;
+    width: 211px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .progress-bar {
+    width: 200px;
+  }
+}

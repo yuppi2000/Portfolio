@@ -1,0 +1,7 @@
+@import url(_arrow/portfolio__link_arrow_left.css);
+@import url(_arrow/portfolio__link_arrow_right.css);
+
+.portfolio__link {
+  display: block;
+  text-decoration: none;
+}

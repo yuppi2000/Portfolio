@@ -1,0 +1,21 @@
+.hero__menu-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 33rem;
+    margin-top: 5.8125rem;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 730px) {
+    .hero__menu-links {
+      justify-content: flex-end;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .hero__menu-links {
+    display: none;
+    }
+  }

@@ -1,0 +1,12 @@
+.portfolio__arrows {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1052px) {
+  .portfolio__arrows {
+    display: none;
+  }
+}

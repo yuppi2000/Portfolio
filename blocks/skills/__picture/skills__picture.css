@@ -1,0 +1,22 @@
+.skills__picture {
+  max-width: 350px;
+  padding-right: 7.5rem;
+  grid-area: picture;
+}
+
+@media screen and (max-width: 1252px) {
+  .skills__picture {
+    max-width: 320px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  .skills__picture {
+    max-width: 224px;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    padding-right: 0;
+    justify-self: center;
+  }
+}

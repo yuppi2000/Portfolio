@@ -1,0 +1,14 @@
+.portfolio__content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 145px;
+}
+
+@media screen and (max-width: 1052px) {
+  .portfolio__content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}

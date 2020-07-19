@@ -1,0 +1,26 @@
+.section-title {
+    padding-top: 5.8125rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 1052px) {
+  .section-title {
+    text-align: center;
+    padding-top: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section-title {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section-title {
+  padding-top: 1.56rem;
+}
+}

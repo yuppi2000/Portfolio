@@ -1,0 +1,61 @@
+@import url(./__logo/hero__logo.css);
+@import url(./__menu-link/hero__menu-link.css);
+@import url(./__menu-links/hero__menu-links.css);
+@import url(./__navigation/hero__navigation.css);
+@import url(./__subtitle/hero__subtitle.css);
+@import url(./__title/hero__title.css);
+@import url(./__works/hero__works.css);
+@import url(./__toggle/hero__toggle.css);
+@import url(./__toggle-link/hero__toggle-link.css);
+
+.hero {
+  background: linear-gradient(rgba(198, 108, 73, 0.3),
+  rgba(198, 108, 73, 0.3)), url(../../images/HeroSection.jpg);
+  max-height: 47rem;
+  -webkit-background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding-bottom: 15rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .hero {
+    max-height: 48rem;
+    min-height: 28rem;
+    max-width: 90rem;
+    min-width: 31.25rem;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding-bottom: 3.125rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    max-height: 28rem;
+    min-height: 10rem;
+    max-width: 31.25rem;
+    min-width: 10rem;
+    background-size: cover;
+    padding-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

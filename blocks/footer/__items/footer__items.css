@@ -1,0 +1,12 @@
+.footer__items {
+  display: flex;
+  margin-top: 51px;
+}
+
+@media screen and (max-width: 1052px) {
+  .footer__items {
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+}
+

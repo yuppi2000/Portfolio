@@ -1,0 +1,4 @@
+.portfolio__image_foto_boats {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}

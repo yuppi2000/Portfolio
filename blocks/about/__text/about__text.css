@@ -1,0 +1,16 @@
+.about__text {
+    max-width: 69.1875rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    text-align: justify;
+  }
+
+
+@media screen and (max-width: 500px) {
+  .about__text {
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+  }
+}

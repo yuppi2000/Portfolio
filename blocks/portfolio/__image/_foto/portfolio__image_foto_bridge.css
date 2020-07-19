@@ -1,0 +1,4 @@
+.portfolio__image_foto_bridge {
+  grid-column: 3/5;
+  grid-row: 1/3;
+}

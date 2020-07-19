@@ -1,0 +1,29 @@
+.progress-bar_frontend-dev::before {
+  content: '';
+  background-color: #C66C49;
+  height: 24px;
+  width: 286px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1252px) {
+  .progress-bar_frontend-dev::before {
+    height: 25px;
+    width: 186px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .progress-bar_frontend-dev::before {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .progress-bar_frontend-dev::before {
+    height: 18px;
+  }
+}

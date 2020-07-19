@@ -1,0 +1,49 @@
+.portfolio__images {
+  width: 57%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 144px);
+  grid-gap: 30px;
+}
+
+@media screen and (max-width: 1252px) {
+  .portfolio__images {
+    width: 62%;
+    grid-template-rows: repeat(3, 120px);
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  .portfolio__images {
+    width: 90%;
+    grid-template-rows: repeat(3, 144px);
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .portfolio__images {
+    width: 100%;
+    grid-template-rows: repeat(3, 120px);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .portfolio__images {
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio__images {
+    grid-template-rows: repeat(3, 85px);
+    grid-gap: 12px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .portfolio__images {
+    grid-template-rows: repeat(3, 65px);
+  }
+}

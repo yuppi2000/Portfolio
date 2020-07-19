@@ -1,0 +1,15 @@
+.hero__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90rem;
+    margin: auto;
+    position: relative;
+  }
+
+
+@media screen and (max-width: 500px) {
+  .hero__navigation {
+  flex-direction: column;
+  }
+}

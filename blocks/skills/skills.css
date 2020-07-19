@@ -1,0 +1,10 @@
+@import url(./__container/skills__container.css);
+@import url(./__title/skills__title.css);
+@import url(./__picture/skills__picture.css);
+
+.skills {
+  box-sizing: border-box;
+  background-color: #FFFAF2;
+}
+
+

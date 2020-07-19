@@ -1,0 +1,10 @@
+@import url(_foto/portfolio__image_foto_boats.css);
+@import url(_foto/portfolio__image_foto_bridge.css);
+@import url(_foto/portfolio__image_foto_house.css);
+@import url(_foto/portfolio__image_foto_river.css);
+
+.portfolio__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

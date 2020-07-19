@@ -1,0 +1,12 @@
+@import url(__container/footer__container.css);
+@import url(__item/footer__item.css);
+@import url(__items/footer__items.css);
+@import url(__list/footer__list.css);
+@import url(__link/footer__link.css);
+@import url(__list-item/footer__list-item.css);
+@import url(__arrow/footer__arrow.css);
+
+.footer {
+  background-color: #fffaf2;
+  color: #333333;
+}

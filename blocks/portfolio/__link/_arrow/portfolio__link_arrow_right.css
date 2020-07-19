@@ -1,0 +1,7 @@
+.portfolio__link_arrow_right {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

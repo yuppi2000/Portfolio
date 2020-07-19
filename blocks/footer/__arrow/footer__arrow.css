@@ -1,0 +1,19 @@
+.footer__arrow {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/back-to-top.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 70px;
+}
+
+@media screen and (max-width: 1052px) {
+  .footer__arrow {
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+  }
+}

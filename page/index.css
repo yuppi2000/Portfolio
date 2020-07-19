@@ -1,0 +1,16 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/width/width.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/cells-title/cells-title.css);
+@import url(../blocks/cells-description/cells-description.css);
+@import url(../blocks/cell-title/cell-title.css);
+@import url(../blocks/cell-description/cell-description.css);
+@import url(../blocks/progress-bar/progress-bar.css);
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/section-title/section-title.css);
+

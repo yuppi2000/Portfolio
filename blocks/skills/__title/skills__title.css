@@ -1,0 +1,11 @@
+.skills__title {
+  grid-area: title;
+}
+
+@media screen and (max-width: 1052px) {
+  .skills__title {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    justify-items: center;
+  }
+}

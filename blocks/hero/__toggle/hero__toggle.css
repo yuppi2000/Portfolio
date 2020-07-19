@@ -1,0 +1,16 @@
+.hero__toggle {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .hero__toggle {
+    position: absolute;
+    transform: rotate(90deg);
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #ffffff;
+    top: 2.4rem;
+    text-align: center;
+  }
+}

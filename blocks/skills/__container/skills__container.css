@@ -1,0 +1,21 @@
+.skills__container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "title . ."
+  "picture cells-title cells-description";
+  row-gap: 5.375rem;
+  padding-bottom: 145px;
+}
+
+@media screen and (max-width: 1052px) {
+  .skills__container {
+    grid-template-areas:
+    "title ."
+    "picture ."
+    "cells-title cells-description";
+    row-gap: 1.625rem;
+    padding-bottom: 1.625rem;
+    max-width: fit-content;
+  }
+}

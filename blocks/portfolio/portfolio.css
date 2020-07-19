@@ -1,0 +1,13 @@
+@import url(__text/portfolio__text.css);
+@import url(__subtitle/portfolio__subtitle.css);
+@import url(__images/portfolio__images.css);
+@import url(__image/portfolio__image.css);
+@import url(__content/portfolio__content.css);
+@import url(__arrows/portfolio__arrows.css);
+@import url(__link/portfolio__link.css);
+
+@media screen and (max-width: 600px) {
+  .portfolio {
+    width: 82%
+  }
+}
